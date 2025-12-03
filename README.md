@@ -17,7 +17,7 @@
 
 ## 技術流程與程式碼亮點
 | 階段 | 腳本 (Python) | 技術內容與成果 |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **I. 資料概覽** | `read_data.py` | 讀取大型 `.tsv` 檔案，快速檢查欄位與資料總筆數。 |
 | **II. ETL 核心** | `1_clean_data_4.py` | **ETL Pipeline 實作**：數據清洗、資料過濾（2010-2015/US Market）、執行 **NLP 情緒分類（Sentiment Labeling）**。 |
 | **III. 數據驗證** | `verify_alldata_2.py` | 專案資料品質保證（Data Quality Assurance）模組，確保 ETL 輸出檔案的結構與筆數正確無誤。 | 
